@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Nosifer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap');
+*{
+    padding: 0rem;
+    margin: 0rem;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-family: "Noto Sans Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 800;
+}
+/*NavBar*/
+header{
+    display: flex;
+    justify-content:flex-end;
+    border: 2px black solid;
+}
+header h1{
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+header section{
+    padding: 1rem;
+}
+header section button{
+    padding: 0.5rem;
+}
+/*Main images*/
+.container1{
+    height: 50vh;
+    width: auto;
+    background-image: url("pics/dining.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px yellow solid;
+    position: relative;
+}
+.container1 .sec1{
+    position: absolute;
+    bottom: -5rem;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    height: 15rem;
+    width: 30rem;
+    padding: 1rem;
+    border-radius: 0.2rem;
+    box-shadow: 0rem 0.1rem 0.3rem rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0.2rem);
+    -webkit-backdrop-filter: blur(0.2rem);
+    border: 0.1rem solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.2);
+}
+.container1 .sec1 h2, label, input{
+    background-color: transparent;
+}
+.container2{
+    border: 2px yellowgreen solid;
+    height: 100vh;
+    margin-top: 25%;
+}
+.container2, .container2 ul li, .container2 h1{
+    background-color: black;
+    color: white;
+}
+.container2 h1{
+    text-align: center;
+    margin: 1rem 0rem;
+}
+.container2 ul{
+    display: flex;
+    flex-wrap: wrap;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+}
+.container2 ul li img{
+    height: 4rem;
+    width: auto;
+    max-height: 15rem;
+    border: 2px yellow solid;
+    margin: 1rem 2rem;
+}

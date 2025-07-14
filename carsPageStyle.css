@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Lepcha&display=swap');
+/* font-family: 'Kanit', sans-serif; */
+/* font-family: 'Poiret One', cursive; */
+/*font-family: 'Poppins', sans-serif;*/
+/* font-family: 'Noto Sans Lepcha', sans-serif; */
+*{
+    margin: 0rem;
+    padding: 0rem;
+    text-decoration: none;
+    list-style-type: none;
+    user-select: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+/*Scrollbar*/
+::-webkit-scrollbar{
+    width: 0.3rem;
+}
+::-webkit-scrollbar-track{
+    background: rgb(0, 0, 0);
+}
+::-webkit-scrollbar-thumb{
+    background-color: #710000;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #ca0000;
+}
+body{
+    background-color: black;
+}
+/* nav */
+nav{
+    /* background-color: transparent; */
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+nav .ferraLogo{
+    height: 3.5rem;
+    width: auto;
+    display: flex;
+    position: absolute;
+    left: 0rem;
+    margin-left: 1rem;    
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.4);
+}
+nav ul li{
+    margin: 1.2rem 2rem;
+}
+nav ul li a{
+    color: white;
+    transition-duration: 0.2s;
+    font-family: 'Poppins', sans-serif;
+
+}
+nav ul li a:hover{
+    color: rgb(194, 0, 0);
+}
+/* divs */
+.container1{
+    height: 100vh;
+    width: auto;
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7)),url('../pics/ferrari.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#collector{
+    height: 10rem;
+    width: 10rem;
+    border: 2px yellow solid;
+    z-index: 10;
+    position: absolute;
+}
+.invisible{
+    visibility: hidden;
+}
+.container1 h1{
+    position: absolute;
+    bottom: 15%;
+    left: 10%;
+    font-size: 3rem;
+    /* color: white; */
+    letter-spacing: 0.15rem;
+    font-family: 'Noto Sans Lepcha', sans-serif;
+    background-image: linear-gradient(45deg, #9d9d9d, #b30f0f);
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+/* con2 */
+#container2{
+    height: 110vh;
+    width: auto;
+    background-color: black;
+    position: relative;
+    z-index: 1;
+}
+#container2 img{
+    color: White;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 5%;
+    width: auto;
+}
+#container2 video{
+    height: 100%;
+    width: 100%;
+    opacity: 0.3;
+}
+/* con3 */
+.container3{
+    height: 220vh;
+    width: auto;
+    /* background-color: rgb(43, 43, 43); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+.container3 .ferrari3{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0)),url("../pics/ferrari3.jpg");
+    background-size: cover;
+}
+.container3 h1{
+    position: absolute;
+    top: 15%;
+    font-family: 'Poiret One', cursive;
+    letter-spacing: 0.09rem;
+    color: white;
+}
+/* con4 */
+#container4{
+    height: 110vh;
+    width: auto;
+    background-color: rgb(55, 55, 55);
+    border: 2px transparent solid;
+    color: rgba(255, 255, 255,0.8);
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+#container4 .ferrari2, #container4 .ferrari3{
+    transition-duration: 0.1s;
+    height: 25rem;
+    width: 16.5rem;
+    margin: 5rem; 
+    background-image: url('../pics/ferrari2.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 2rem 0rem;
+}
+#container4 .ferrari3{
+    height: 25em;
+    width: 19.8rem;
+    background-image: url('../pics/ferrari4.jpg');
+}
+#container4 .con41H1, .con41H2{
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    left: 0.4rem;
+    bottom: 4.8rem;
+}
+#container4 p{
+    position: absolute;
+    font-family: 'Noto Sans Lepcha', sans-serif;
+    left: 0.8rem;
+    bottom: 2rem;
+    padding: 0.1rem;
+}
+#container4 .ferrari2:hover{
+    transform: scale(1);
+    border-radius: 0rem;
+    box-shadow: black 0.8rem 0.6rem 1rem 0.1rem;
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.5)),url('../pics/ferrari6.jpg');
+    background-size: cover;
+    cursor: none;
+    opacity: 1;
+}
+#container4 .ferrari3:hover{
+    transform: scale(1);
+    border-radius: 0rem;
+    box-shadow: black 0.8rem 0.6rem 1rem 0.1rem;
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.6)),url('../pics/ferrari5.jpg');
+    background-size: cover;
+    cursor: none;
+}
+#container4 .blocker{
+    height: 10rem;
+    width: 100%;
+    bottom: 0rem;
+    background-color: rgb(55, 55, 55);
+    position: absolute;
+}
+/* animViewport */
+.showText{
+    transition-duration: 8s;
+    opacity: 0.8;
+}
+.hideText{
+    opacity: 0;
+}
+/* footMan */
+footer{
+    color: white;
+}
+footer .footMan .footListSM{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem;
+}
+footer .footMan .footListSM li{
+    margin: 0rem;
+    font-family: 'Poppins', sans-serif;
+}
+footer .footMan .footListSM li:hover{
+    background-image: linear-gradient(45deg, #9d9d9d, #b30f0f);
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+footer p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0rem;
+    opacity: 0.5;
+}
+footer .footMan .lastFoot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0rem 1.5rem 0rem;
+}
+footer .footMan .lastFoot li{
+    transition-duration: 0.2s;
+    font-family: 'Poppins', sans-serif;
+    margin: 0rem 2rem;
+    overflow: auto;
+}
+footer .lastFoot li:hover{
+    transform: scale(1.1);
+}
+@media (max-width: 1220px){
+    #container2 video{
+        opacity: 0.8;
+        background-color: blanchedalmond;
+    }
+    footer .footMan .lastFoot li{
+        font-size: 0.8rem;
+        margin: 0rem 1rem;
+    }
+}
+@media (max-width: 1075px){
+    #container2 video{
+        opacity: 0.8;
+        background-color: blanchedalmond;
+    }
+    footer .footMan .lastFoot li{
+        font-size: 0.6rem;
+        margin: 0rem 1rem;
+    }
+}
+@media (max-width: 930px){
+    #container2 video{
+        opacity: 0.8;
+        background-color: blanchedalmond;
+    }
+    footer .footMan .lastFoot{
+        flex-direction: column;
+    }
+    footer .footMan .lastFoot li{
+        font-size: 0.8rem;
+    }
+}
+button{
+    height: 3rem;
+    width: 2.5rem;
+    background-color: transparent;
+    position: absolute;
+    top: 0.8rem;
+    right: 0.1rem;
+    border: none;
+    visibility: hidden;
+    z-index: 1;
+}
+button span{
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    height: 0.35rem;
+    background-color: black;
+}
+button span:nth-child(1){
+    top: 0.2rem;
+    width: 2rem;
+}
+button span:nth-child(2){
+    top: 0.7rem;
+    width: 1.5rem;
+}
+button span:nth-child(3){
+    top: 1.2rem;
+    width: 1rem;
+}
+.mobile-nav{
+    visibility: hidden;
+    flex-direction: column;
+}
+button:active span:nth-child(1){
+    width: 1rem;
+}
+button:active span:nth-child(3){
+    width: 2rem;
+}
+.fl{
+    visibility: visible;
+}
+@media (min-width: 661px){
+    .mobile-nav{
+        visibility: hidden;
+    }
+    .fl{
+        height: auto;
+    }
+}
+@media (max-width: 660px){
+    nav ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    nav .firstList li{
+        visibility: hidden;
+    }
+    .burger{
+        visibility: visible;
+    }
+}

@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0rem;
+    padding: 0rem;
+    user-select: none;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(222, 222, 222);
+}
+/*Scrollbar*/
+::-webkit-scrollbar{
+    width: 0.3rem;
+}
+::-webkit-scrollbar-track{
+    background: black;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(222, 222, 222);
+}
+body{
+    background-color: black;
+}
+/*navList*/
+nav{
+    position:fixed;
+    top: 2rem;
+    right: 2rem;
+    font-family: "Teko", sans-serif;
+    z-index: 3;
+}
+nav .headList li{
+    display: inline;
+    padding: 1.2rem;
+    font-size: 1.8rem;
+}
+nav .headList li a:hover{
+    background-image: linear-gradient(90deg, rgb(135, 174, 233), #6792e1);
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+/*beginning*/
+div{
+    font-family: "Teko", sans-serif;
+}
+.container{
+    background-image: url('pics/cyberBG4.png');
+    height: 100vh;
+    width: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: "Teko", sans-serif;
+    margin-bottom: 0.6rem;
+}
+#ubps{
+    position: absolute;
+    top: 0rem;
+    left: 1rem;
+    font-size: 5rem; 
+}
+#intro{
+    position: fixed;
+    top: 50%;
+    /* background-image: linear-gradient(90deg, #0f2e67, rgb(141, 183, 246)); */
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    padding-left: 2rem;
+    font-size: 4.4rem;
+    z-index: 1;
+}
+/*midway*/
+#projectCon{
+    position: relative;
+    z-index: 2;
+    /* background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.9)),url('pics/cybersecurityBG.png'); */
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+#projectCon h1, #aboutCon h1{
+    padding: 0.4rem 0rem 0rem 1rem;
+}
+#projectCon ul li h2{
+    font-size: 2rem;
+    color: antiquewhite;
+}
+#projectCon ul li p{
+    font-size: 1.6rem;
+}
+#projectCon ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Inter", sans-serif !important; 
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+#projectCon ul li{
+    margin: 2.5rem 0rem;
+    height: 50vh;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 0rem;
+    box-shadow: black 0.3rem 0rem 0.2rem 0.1rem;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#projectCon ul li:nth-child(1){
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)),url('pics/digitalMap.png');
+}
+#projectCon ul li:nth-child(2){
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)),url('pics/cyberPursuit.png');
+}
+#projectCon ul li:nth-child(3){
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)),url('pics/247CamOps.png');
+}
+#projectCon ul li:nth-child(4){
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)),url('pics/wildCables.png');
+}
+#projectCon ul li img{
+    height: 10rem;
+    width: auto;
+    display: flex;
+    justify-content: left;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 0.4rem;
+    margin: 2rem 0rem 0rem 2rem;
+    filter: blur(0rem) !important;
+    position: inherit;
+}
+/*ending*/
+#aboutCon{
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.9)),url('pics/digitalMap2.png');
+    height: 100vh;
+    width: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    z-index: 4;
+}
+#aboutCon h1{
+    color: white;
+}
+#aboutCon p{
+    color: black !important;
+    padding: 0rem 6rem;
+    text-align: justify;
+    font-size: 2rem;
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: black 0rem 0rem 0rem 0rem;
+    backdrop-filter: blur(0.1rem);
+    -webkit-backdrop-filter: blur(0.1rem);
+    border-top: 0.12rem rgba(255,255,255,0.1) solid;
+    border-bottom: 0.12rem rgba(255,255,255,0.1) solid;
+}
+/*footer*/
+footer ul{
+    text-align: center;
+    padding: 2rem 0rem;
+    font-family: "Teko", sans-serif;
+}
+footer ul li{
+    display: inline;
+    justify-content: space-between;
+    font-size: 3rem;
+    margin: 0rem 1.2rem;
+}
+footer ul li a:hover{
+    color: yellowgreen;
+    transition-duration: 0.3s;
+}
+@media screen and (max-width: 600px){
+    nav{
+        top: 0.2rem;
+        right: 0.4rem;
+    }
+    nav .headList li{
+        display: flex;
+        flex-direction: column;
+        padding: 0.2rem;
+    }
+}
+@media screen and (max-width: 590px){
+    #projectCon ul li img{
+        height: 6rem;
+        width: auto;
+    }
+    #projectCon ul li img:hover{
+        transform: scale(1.5);
+        cursor: crosshair;
+    }
+
+    #projectCon ul li h2{
+        font-size: 1.6rem;
+    }
+    #projectCon ul li p{
+        border: 2px green solid;
+        font-size: 1rem;
+    }
+}
