@@ -68,7 +68,7 @@ nav ul li a:hover{
 .container1{
     height: 100vh;
     width: auto;
-    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7)),url('../pics/ferrari.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7)),url('pics/ferrari.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -130,7 +130,7 @@ nav ul li a:hover{
 .container3 .ferrari3{
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0)),url("../pics/ferrari3.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0)),url("pics/ferrari3.jpg");
     background-size: cover;
 }
 .container3 h1{
@@ -156,7 +156,7 @@ nav ul li a:hover{
     height: 25rem;
     width: 16.5rem;
     margin: 5rem; 
-    background-image: url('../pics/ferrari2.jpg');
+    background-image: url('pics/ferrari2.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     border-radius: 2rem 0rem;
@@ -164,7 +164,7 @@ nav ul li a:hover{
 #container4 .ferrari3{
     height: 25em;
     width: 19.8rem;
-    background-image: url('../pics/ferrari4.jpg');
+    background-image: url('pics/ferrari4.jpg');
 }
 #container4 .con41H1, .con41H2{
     position: absolute;
@@ -183,7 +183,7 @@ nav ul li a:hover{
     transform: scale(1);
     border-radius: 0rem;
     box-shadow: black 0.8rem 0.6rem 1rem 0.1rem;
-    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.5)),url('../pics/ferrari6.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.5)),url('pics/ferrari6.jpg');
     background-size: cover;
     cursor: none;
     opacity: 1;
@@ -192,7 +192,7 @@ nav ul li a:hover{
     transform: scale(1);
     border-radius: 0rem;
     box-shadow: black 0.8rem 0.6rem 1rem 0.1rem;
-    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.6)),url('../pics/ferrari5.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.6)),url('pics/ferrari5.jpg');
     background-size: cover;
     cursor: none;
 }
